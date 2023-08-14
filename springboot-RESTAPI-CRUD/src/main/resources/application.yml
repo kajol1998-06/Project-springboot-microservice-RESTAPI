@@ -1,0 +1,22 @@
+Spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: kajol@123
+    url: jdbc:h2:mem:testuser
+    username: kajol
+spring:
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+  application:
+    name: 'CURD-application'
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'             
