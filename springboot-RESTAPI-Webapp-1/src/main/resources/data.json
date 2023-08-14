@@ -1,0 +1,14 @@
+[
+  {
+    "name": "tokTime",
+    "price": "20"
+  },
+  {
+   "name": "netcharge",
+    "price": "30"
+  },
+  {
+   "name": "mag_charge",
+    "price": "40"
+  }
+]
